@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernet:
+      ddl-auto: create
+      dialect: org.hibernate.dialect.MySQL5Dialect
+      use-new-id-generator-mappings: false
+    properties:
+      hibernate.hbm2ddl.auto: create-drop
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/spring_sample
+    username: root
+    password: toor
