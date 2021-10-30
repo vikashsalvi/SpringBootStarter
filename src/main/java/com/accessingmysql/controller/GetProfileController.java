@@ -15,7 +15,7 @@ public class GetProfileController {
     @Autowired
     private ProfileService profileService;
 
-    @PostMapping(path="/validate")
+    @PostMapping(path="/get")
     public @ResponseBody
     User verifyUser (@RequestParam String username) {
         return profileService.getProfile(username);
