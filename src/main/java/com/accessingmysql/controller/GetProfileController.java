@@ -17,7 +17,13 @@ public class GetProfileController {
 
     @PostMapping(path="/get")
     public @ResponseBody
-    User verifyUser (@RequestParam String username) {
+    User getUser (@RequestParam String username) {
         return profileService.getProfile(username);
+    }
+
+    @PostMapping(path="/getEmail")
+    public @ResponseBody
+    String getEmail (@RequestParam String username) {
+        return profileService.getProfile(username).getEmail();
     }
 }
