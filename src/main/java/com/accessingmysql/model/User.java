@@ -1,4 +1,4 @@
-package com.example.accessingmysql.model;
+package com.accessingmysql.model;
 
 import javax.persistence.*;
 

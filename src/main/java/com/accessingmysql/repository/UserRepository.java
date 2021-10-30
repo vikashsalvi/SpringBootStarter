@@ -1,6 +1,6 @@
-package com.example.accessingmysql.repository;
+package com.accessingmysql.repository;
 
-import com.example.accessingmysql.model.User;
+import com.accessingmysql.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

@@ -1,7 +1,7 @@
-package com.example.accessingmysql.controller;
+package com.accessingmysql.controller;
 
-import com.example.accessingmysql.repository.UserRepository;
-import com.example.accessingmysql.model.User;
+import com.accessingmysql.model.User;
+import com.accessingmysql.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
