@@ -1,7 +1,7 @@
-package com.example.accessingmysql.service;
+package com.accessingmysql.service;
 
-import com.example.accessingmysql.model.User;
-import com.example.accessingmysql.repository.UserRepository;
+import com.accessingmysql.model.User;
+import com.accessingmysql.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

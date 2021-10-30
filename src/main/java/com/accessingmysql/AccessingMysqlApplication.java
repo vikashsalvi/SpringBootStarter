@@ -1,4 +1,4 @@
-package com.example.accessingmysql;
+package com.accessingmysql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
